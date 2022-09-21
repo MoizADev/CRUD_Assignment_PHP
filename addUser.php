@@ -54,16 +54,16 @@ if (isset($_POST['submit'])){
             <div class="form-group">
                 <label for="password">Password</label>
                 <input type="password" id="password" name="password" onkeyup="CheckPswd()" class="form-control" id="exampleInputPassword1" placeholder="Password" required>
-                <small id="pswdError" style="opacity: 0"></small>
+                <small id="pswdError" style="opacity:0 ;color: red;">Password does not match.</small>
             </div>
 
             <div class="form-group">
                 <label for="cpassword">Confirm Password</label>
                 <input type="password" id="cpassword" name="cpassword" onkeyup="CheckPswd()" class="form-control" id="exampleInputPassword2" placeholder="Confirm Password">
-                <small id="pswdError" style="opacity: 0"></small>
+                <small id="pswdError" style="opacity:0 ;color: red;">Password does not match.</small>
             </div>
 
-            <button type="submit" name="submit" class="btn btn-dark">Submit</button>
+            <button type="submit" name="submit" id="FormSubmit" class="btn btn-dark">Submit</button>
         </form>
     </div>
 </body>
