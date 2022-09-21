@@ -1,5 +1,7 @@
+// Initial State
 let FormSubmit = document.getElementById('FormSubmit');
 FormSubmit.disabled = true;
+
 
 function CheckPswd(){
 
