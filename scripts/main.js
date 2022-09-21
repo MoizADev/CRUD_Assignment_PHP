@@ -1,3 +1,5 @@
+let FormSubmit = document.getElementById('FormSubmit');
+FormSubmit.disabled = true;
 
 function CheckPswd(){
 
@@ -7,7 +9,10 @@ function CheckPswd(){
 
     console.log(pass1.value+"    "+pass2.value);
 
-
+    if (pass2.value=='' || pass1.value==''){
+        FormSubmit.disabled = true;
+    }
+    else
     if(pass1.value !== pass2.value){
         pass1.style.border = '2px solid red';
         pass2.style.border = '2px solid red';

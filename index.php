@@ -18,7 +18,7 @@
             <p class="logo">C R U D</p>
             <a class="btn" href="addUser.php">Add User</a>
         </nav>
-        <table class="container table table-striped thead-dark">
+        <table class="container rounded table table-striped thead-dark">
             <thead class="bg-dark text-white">
             <tr>
                 <th>User ID</th>
